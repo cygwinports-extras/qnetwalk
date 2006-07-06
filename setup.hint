@@ -1,0 +1,4 @@
+category: KDE Games
+requires: cygwin qt3
+sdesc: "Qt3 NetWalk game"
+ldesc: "Qt3 version of the NetWalk system administration game"
