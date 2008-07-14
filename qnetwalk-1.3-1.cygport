@@ -1,0 +1,7 @@
+inherit qt4
+
+DESCRIPTION="Qt NetWalk game"
+HOMEPAGE="http://qt.osdn.org.ua/qnetwalk.html"
+SRC_URI="http://qt.osdn.org.ua/${P}.tar.gz"
+
+

@@ -1,48 +1,50 @@
 qnetwalk
 ------------------------------------------
-Qt3 version of the NetWalk system administration game.
+Qt version of the NetWalk system administration game.
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  qt3-3.3.6-1
+  cygwin-1.5.25-15
+  libQtCore4-4.4.0-1
+  libQtGui4-4.4.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.20-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  make-3.80-1
+  binutils-20080523-2
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
 
 Canonical website:
   http://qt.osdn.org.ua/qnetwalk.html
 
+Canonical website:
+  http://qt.osdn.org.ua/
+
 -------------------------------------------
 
 Build instructions:
-  unpack qnetwalk-1.2-X-src.tar.bz2
+  unpack qnetwalk-1.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qnetwalk-1.2-X.cygport all
+  cygport ./qnetwalk-1.3-X.cygport all
 
 This will create:
-  /usr/src/qnetwalk-1.2-X-src.tar.bz2
-  /usr/src/qnetwalk-1.2-X.tar.bz2
+  /usr/src/qnetwalk-1.3-X-src.tar.bz2
+  /usr/src/qnetwalk-1.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/qnetwalk.exe
-  /usr/share/applnk/Games/qnetwalk.desktop
-  /usr/share/doc/Cygwin/qnetwalk-1.2.README
-  /usr/share/doc/qnetwalk-1.2/COPYING
-  /usr/share/doc/qnetwalk-1.2/ChangeLog
-  /usr/share/doc/qnetwalk-1.2/README
-  /usr/share/icons/hicolor/16x16/apps/qnetwalk.png
+  /usr/share/applications/qnetwalk.desktop
+  /usr/share/doc/qnetwalk-1.3/COPYING
+  /usr/share/doc/qnetwalk-1.3/ChangeLog
+  /usr/share/doc/qnetwalk-1.3/README
   /usr/share/man/man6/qnetwalk.6.gz
+  /usr/share/pixmaps/qnetwalk.xpm
   /usr/share/qnetwalk/sounds/click.wav
   /usr/share/qnetwalk/sounds/connect.wav
   /usr/share/qnetwalk/sounds/start.wav
@@ -51,14 +53,20 @@ Files included in the binary package:
   /usr/share/qnetwalk/translations/qnetwalk_de.qm
   /usr/share/qnetwalk/translations/qnetwalk_es.qm
   /usr/share/qnetwalk/translations/qnetwalk_fr.qm
+  /usr/share/qnetwalk/translations/qnetwalk_it.qm
   /usr/share/qnetwalk/translations/qnetwalk_nl.qm
   /usr/share/qnetwalk/translations/qnetwalk_pl.qm
   /usr/share/qnetwalk/translations/qnetwalk_pt_BR.qm
   /usr/share/qnetwalk/translations/qnetwalk_ru.qm
+  /usr/share/qnetwalk/translations/qnetwalk_tr.qm
+  /usr/share/qnetwalk/translations/qnetwalk_ua.qm
 
 ------------------
 
 Port Notes:
+
+----- version 1.3-1 -----
+Version bump for Qt4.
 
 ----- version 1.2-1 -----
 Initial release for Cygwin.
